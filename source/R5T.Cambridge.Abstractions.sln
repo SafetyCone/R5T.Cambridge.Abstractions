@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Cambridge.Abstractions.Construction", "R5T.Cambridge.Abstractions.Construction\R5T.Cambridge.Abstractions.Construction.csproj", "{AAE7A7D2-1A3B-456C-86EC-EB0A4204973B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Cambridge.Abstractions.Construction", "R5T.Cambridge.Abstractions.Construction\R5T.Cambridge.Abstractions.Construction.csproj", "{AAE7A7D2-1A3B-456C-86EC-EB0A4204973B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Cambridge.Abstractions", "R5T.Cambridge.Abstractions\R5T.Cambridge.Abstractions.csproj", "{8456E129-DDE7-4C6E-867F-A33524AF3D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Cambridge.Abstractions", "R5T.Cambridge.Abstractions\R5T.Cambridge.Abstractions.csproj", "{8456E129-DDE7-4C6E-867F-A33524AF3D93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{72331237-BCD6-4B22-B545-DBE9440A74DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Cambridge.Types", "..\..\R5T.Cambridge.Types\source\R5T.Cambridge.Types\R5T.Cambridge.Types.csproj", "{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AAE7A7D2-1A3B-456C-86EC-EB0A4204973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{8456E129-DDE7-4C6E-867F-A33524AF3D93}.Release|x64.Build.0 = Release|Any CPU
 		{8456E129-DDE7-4C6E-867F-A33524AF3D93}.Release|x86.ActiveCfg = Release|Any CPU
 		{8456E129-DDE7-4C6E-867F-A33524AF3D93}.Release|x86.Build.0 = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|x64.Build.0 = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Debug|x86.Build.0 = Debug|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|x64.ActiveCfg = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|x64.Build.0 = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F421FE7E-3224-4BDB-8A4C-052F11BFE62E} = {72331237-BCD6-4B22-B545-DBE9440A74DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D9ABAD1-3BAE-4BBF-BA0A-3D36974D7BC2}
 	EndGlobalSection
 EndGlobal
